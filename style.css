@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", system-ui;
+}
+
+.container {
+  background-image: url("images/bg-hero-mobile.svg");
+  background-color: hsl(193, 100%, 96%);
+  width: 100vw;
+  background-size: cover;
+  padding-bottom: 40px;
+}
+img {
+  width: 100vw;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 4%;
+  align-items: center;
+}
+
+header img {
+  width: 29.8%;
+  height: fit-content;
+  max-width: 120px;
+}
+
+header button {
+  padding: 1% 4%;
+  border-radius: 30px;
+  font-size: 11px;
+  border: none;
+  background-color: #fff;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.08);
+  font-weight: 700;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frontpage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1.title {
+  padding: 60px 26px 0px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+  max-width: 400px;
+}
+.details {
+  padding: 20px 32px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  color: #000000d9;
+  max-width: 500px;
+}
+
+.getstarted {
+  border: none;
+  border-radius: 30px;
+  color: white;
+  background-color: hsl(322, 100%, 66%);
+  padding: 11px 55px;
+  font-weight: 500;
+  margin: 10px auto 36px;
+  font-size: 12px;
+  box-shadow: 1px 2px 8px rgb(0 0 0 / 30%);
+}
+
+.front {
+  padding: 20px 32px;
+}
+
+.carddeck {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 60px 18px 180px;
+  background-color: hsl(209deg 15% 88% / 15%);
+  width: 100vw;
+  align-items: center;
+}
+.cards {
+  background-color: #fff;
+  border-radius: 13px;
+  padding: 36px 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  font-size: 14px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.08);
+  width: 90vw;
+}
+.cards img {
+  width: 60vw;
+  margin: 26px 12px;
+  max-width: 250px;
+}
+.cardtitle {
+  padding: 16px 0px;
+  font-size: 20px;
+}
+.cardinfo {
+  color: rgb(0 0 0 / 40%);
+  font-weight: 500;
+  font-size: 13px;
+  max-width: 400px;
+}
+.card3 .cardinfo {
+  padding: 0px 6px;
+}
+
+.cardpage {
+  position: relative;
+  width: 100vw;
+}
+
+.floatcard {
+  background-color: #fff;
+  border-radius: 13px;
+  padding: 42px 10px;
+  position: absolute;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.08);
+  left: 50%;
+  top: 80px;
+  transform: translateX(-50%);
+  max-width: 450px;
+  width: 95%;
+}
+.floatcard h3 {
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  padding: 4px 0px;
+}
+.floatcard button {
+  margin-bottom: 0px;
+}
+
+.contactpage {
+  background-color: hsl(192, 100%, 9%);
+  padding: 110px 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.694);
+}
+
+.lastlogo {
+  width: 150px;
+  padding: 15px 0px;
+}
+
+.contact {
+  display: flex;
+  gap: 20px;
+  margin: 7px 0px;
+  padding-right: 12px;
+}
+.smallicon {
+  width: 16px;
+  height: fit-content;
+  margin: 4px 0px;
+}
+.location img {
+  width: 10px;
+}
+
+.menu {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu a {
+  color: rgba(255, 255, 255, 0.694);
+  text-decoration: none;
+  padding: 7px 0px;
+}
+.links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.links img {
+  height: 28px;
+  width: fit-content;
+}
+.copyright {
+  font-size: 15px;
+  padding: 10px 0px 20px;
+}
+
+.lastbutt {
+    display: block;
+    margin: 10px auto;
+    font-size: 12px;
+  }
+
+button {
+  cursor: pointer;
+}
+button:hover {
+  opacity: 70%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  h1.title {
+    font-size: 34px;
+    max-width: 570px;
+  }
+
+  .details {
+    max-width: 77vw;
+  }
+
+  .front {
+    max-width: 87vw;
+  }
+
+  .cards {
+    width: 87vw;
+  }
+
+  .cardtitle {
+    font-size: 23px;
+  }
+  .cardinfo {
+    font-size: 15px;
+    max-width: 500px;
+  }
+
+  .contactpage {
+    align-items: center;
+    padding-right: 20vw;
+    padding-left: 20vw;
+    text-align: center;
+  }
+  .menu {
+    width: 50vw;
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .contact {
+    gap: 12px;
+  }
+  #a1 {
+    order: 1;
+  }
+  #a2 {
+    order: 3;
+  }
+  #a3 {
+    order: 5;
+  }
+  #a4 {
+    order: 2;
+  }
+  #a5 {
+    order: 4;
+  }
+  #a6 {
+    order: 6;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header {
+    padding: 50px 5.6%;
+  }
+
+  header img {
+    max-width: 190px;
+  }
+  header button {
+    padding: 0.9% 3.8%;
+    font-size: 13px;
+  }
+  main {
+    flex-direction: row;
+    padding: 0px 4%;
+    align-items: center;
+  }
+  .frontpage {
+    width: 45%;
+    align-items: start;
+    /* align-self: flex-start; */
+  }
+  .front {
+    padding: 10px 30px 36px;
+    width: 55%;
+  }
+  h1.title {
+    text-align: start;
+        font-size: 3.2vw;
+        padding: 0px 26px 5px;
+        max-width: 100%;
+  }
+
+  .details {
+    max-width: 100%;
+    padding: 20px 30px;
+    text-align: start;
+    font-size: 1.2vw;
+    opacity: 90%;
+    font-weight: 600;
+  }
+  main .getstarted {
+    margin: 10px 30px 8vw;
+    font-size: 14px;
+    padding: 15px 65px ;
+    font-weight: 400;
+  }
+  .carddeck {
+    padding-top: 120px;
+  }
+  .cards {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: start;
+  }
+
+  .cards img {
+    width: 40%;
+    max-width: 380px;
+  }
+  .card1 img,
+  .card3 img {
+    order: 1;
+  }
+  .card3 .cardinfo {
+    padding: 0px 20px 0px 1px;
+    }
+
+  .card_details {
+    width: 55%;
+    padding-left: 6vw;
+  }
+  .cardtitle {
+    font-size: 28px;
+    padding: 10px 0px;
+  }
+  .cardinfo {
+    font-size: 18.5px;
+    max-width: 552px;
+  }
+  .floatcard {
+    max-width: 1000px;
+    width: 75%;
+    padding: 60px 10px;
+    top: 100px;
+  }
+  .floatcard h3 {
+    font-size: 32px;
+  }
+  .lastbutt {
+    display: block;
+    margin: 10px auto;
+    font-size: 18px;
+    padding: 15px 70px;
+  }
+  .cardpage {
+    height: 70px;
+  }
+  .contactpage {
+    display: grid;
+    grid-template-columns: 40% 30% 32%;
+    padding-right: 8vw;
+    padding-left: 8vw;
+    column-gap: 36px;
+    text-align: start;
+  }
+  .contact_info {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+  }
+  .contact_info p {
+    text-align: start;
+    padding-right: 20px;
+  }
+  .menu {
+    width: auto;
+  }
+  .lastlogo {
+    width: 180px;
+    padding: 20px 0px;
+  }
+  footer {
+    align-items: start;
+    margin-top: 100px;
+  }
+  .copyright {
+    justify-self: end;
+    padding: 100px 0px 20px;
+  }
+}
