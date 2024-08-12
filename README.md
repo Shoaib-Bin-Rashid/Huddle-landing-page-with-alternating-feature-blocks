@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Huddle landing page]()
-- Live Site URL: [Huddle landing page Live]()
+- Solution URL: [Huddle landing page](https://github.com/Shoaib-Bin-Rashid/Huddle-landing-page-with-alternating-feature-blocks)
+- Live Site URL: [Huddle landing page Live](https://shoaib-bin-rashid.github.io/Huddle-landing-page-with-alternating-feature-blocks/)
 
 ## My process
 
